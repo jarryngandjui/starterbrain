@@ -69,7 +69,7 @@ Offered as updates:
 
 **Never touched, except by an approved migration**: everything in
 `1.daily`, `2.external`, `3.indexes`, `4.tasks`, `7.zettelkasten`, `8.files`,
-`10.archive`, `Excalidraw`. These hold your notes.
+`10.archive`. These hold your notes and attachments.
 
 **Never touched at all**: any plugin's `data.json`, `workspace.json`,
 `workspace-mobile.json`, `.obsidian/plugins/*/` contents, and
