@@ -6,16 +6,16 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiMapPinCheckInside",
-      "LiBus",
-      "LiServer",
-      "💾",
-      "LiPersonStanding",
-      "LiTable",
-      "LiListTodo",
-      "LiPaperclip",
-      "LiCalendarRange",
-      "LiDumbbell"
+      "💿",
+      "🏆",
+      "🏀",
+      "🪖",
+      "👟",
+      "🫂",
+      "💽",
+      "📬",
+      "LiVideo",
+      "LiBookOpen"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -39,22 +39,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "7.zettelkasten/archive": {
-    "iconName": "LiTrash2",
-    "iconColor": "#317fd3"
-  },
-  "7.zettelkasten/sprint": {
-    "iconName": "LiCalendarRange",
-    "iconColor": "#d0ca16"
-  },
-  "7.zettelkasten/story": {
-    "iconName": "LiPaperclip",
-    "iconColor": "#d0ca16"
-  },
-  "7.zettelkasten/people": {
-    "iconName": "LiPersonStanding",
-    "iconColor": "#f3f2f2"
-  },
+  "7.zettelkasten/sprint": "👟",
+  "7.zettelkasten/story": "🪖",
+  "7.zettelkasten/workout": "🏀",
+  "7.zettelkasten/people": "🫂",
   "5.bases/sprint base.base": {
     "iconName": "LiPaperclip",
     "iconColor": "#dd7927"
@@ -79,8 +67,7 @@
     "iconName": "LiListTodo",
     "iconColor": "#255a93"
   },
-  "7.zettelkasten/project": {
-    "iconName": "LiMapPinCheckInside",
-    "iconColor": "#d0ca16"
-  }
+  "7.zettelkasten/project": "🏆",
+  "7.zettelkasten/blog": "📬",
+  "7.zettelkasten/content": "💿"
 }

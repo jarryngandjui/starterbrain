@@ -15,8 +15,6 @@ views:
     sort:
       - property: completed date
         direction: DESC
-      - property: file.name
-        direction: ASC
       - property: rating
         direction: ASC
       - property: productivity
@@ -40,8 +38,6 @@ views:
     sort:
       - property: completed date
         direction: DESC
-      - property: file.name
-        direction: ASC
       - property: rating
         direction: ASC
       - property: productivity
@@ -49,3 +45,4 @@ views:
       - property: performance
         direction: DESC
     image: note.cover
+    columnSize: {}

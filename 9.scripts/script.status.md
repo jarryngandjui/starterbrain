@@ -2,8 +2,16 @@
 const quickAddApi = app.plugins.plugins.quickadd.api;
 const file = tp.config.target_file;
 const now = moment().format("YYYY-MM-DDTHH:mm");
+const tagsToRemove = ["template"];
 
 // --- MODULAR FUNCTIONS ---
+
+function cleanTags(frontmatter) {
+    const tags = frontmatter["tags"] || [];
+    frontmatter["tags"] = tags
+        .filter((tag) => !tagsToRemove.includes(tag))
+        .sort();
+}
 
 async function setInProgress(frontmatter) {
     frontmatter["start date"] = now;
@@ -42,6 +50,7 @@ await app.fileManager.processFrontMatter(file, (frontmatter) => {
             setCancelled(frontmatter);
             break;
     }
+    cleanTags(frontmatter);
 });
 
 new Notice(`Status updated to: ${choice}`);

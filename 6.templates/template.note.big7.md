@@ -14,7 +14,7 @@ due date:
 completed date:
 start date:
 cancelled date:
-cover: "[[cover-sprint.jpg]]"
+cover:
 rating:
 notetoolbar: sprint
 ---
@@ -32,10 +32,11 @@ notetoolbar: sprint
 ## II. Tasks (15 mins) 
 ---
 ```apb
-Big 7 Tasks#task~0/0: 0/12
+Big 7 Tasks#task~0/0: 0/15
 ```
 #### Passion
 - [ ] #task Pacer Book 🔺
+- [ ] #task TBD
 %%passion-task-insert%%
 
 #### Health
@@ -45,7 +46,9 @@ Big 7 Tasks#task~0/0: 0/12
 - [ ] #task YMCA hooping 1 time 🔽
 - [ ] #task Gym 4-5 times a week  🔼
 - [ ] #task Big7 Weekly Checkin  🔺
+- [ ] #task Brand Weekly Checkin 🔺
 - [ ] #task Workout Weekly Checkin  🔺
+- [ ] #task Take out the trash
 %%health-task-insert%%
 
 #### Social

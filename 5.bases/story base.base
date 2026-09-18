@@ -1,13 +1,5 @@
 views:
   - type: cards
-    name: Active
-    filters:
-      and:
-        - '!file.tags.contains("template")'
-        - kind.contains("story")
-        - complete == false
-    image: note.cover
-  - type: cards
     name: Social
     filters:
       and:
@@ -16,7 +8,7 @@ views:
         - complete == false
         - category == ["social"]
     image: note.cover
-  - type: table
+  - type: cards
     name: Brand
     filters:
       and:
@@ -24,6 +16,7 @@ views:
         - kind.contains("story")
         - category == ["brand"]
         - file.tags.contains("content")
+        - complete == false
     order:
       - file.name
       - file.tags
@@ -41,4 +34,7 @@ views:
         - kind.contains("story")
         - complete == false
         - file.tags.contains("external")
+    order:
+      - file.name
+      - url
     image: note.cover

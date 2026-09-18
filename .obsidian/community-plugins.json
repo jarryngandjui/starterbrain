@@ -1,15 +1,16 @@
 [
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "soundscapes",
+  "quickadd",
+  "pretty-properties",
+  "note-toolbar",
+  "mononote",
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
-  "obsidian-importer",
-  "obsidian-tasks-plugin",
   "callout-manager",
-  "mononote",
-  "note-toolbar",
-  "templater-obsidian",
-  "quickadd",
-  "soundscapes",
-  "dataview",
   "advanced-progress-bars",
-  "actions-uri"
+  "actions-uri",
+  "obsidian-relative-line-numbers",
+  "sticky-notes"
 ]
