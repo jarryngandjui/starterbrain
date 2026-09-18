@@ -1,8 +1,16 @@
 {
+  "showTabTitlebarButtons": true,
   "copyLinkToElemenetAnchorTo100": false,
   "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
-  "folder": "Excalidraw",
+  "phoneFooterSafeAreaPadding": false,
+  "tabletFooterSafeAreaPadding": false,
+  "folder": "8.files/excalidraw",
+  "libraryFolderPath": "Excalidraw/Libraries",
+  "libraryFileName": "local-library",
+  "libraryStorageMode": "data-json",
+  "libraryMigrationStatus": "later",
+  "libraryMigrationSnoozeUntil": 1789385747534,
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
@@ -29,8 +37,10 @@
   "annotateSuffix": "",
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
+  "displaySVGInPreview": false,
   "previewImageType": "SVGIMG",
   "renderingConcurrency": 3,
+  "imageCacheRetentionDays": 30,
   "allowImageCache": true,
   "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
@@ -42,6 +52,7 @@
   "isLeftHanded": false,
   "desktopUIMode": "tray",
   "tabletUIMode": "compact",
+  "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -81,7 +92,7 @@
   "pageTransclusionCharLimit": 200,
   "wordWrappingDefault": 0,
   "removeTransclusionQuoteSigns": true,
-  "iframelyAllowed": true,
+  "oEmbedAllowed": false,
   "pngExportScale": 1,
   "exportWithTheme": true,
   "exportWithBackground": true,
@@ -95,6 +106,7 @@
   "embedType": "excalidraw",
   "embedMarkdownCommentLinks": true,
   "embedWikiLink": true,
+  "embedPlaceholderImage": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
@@ -106,13 +118,15 @@
   "addDummyTextElement": false,
   "zoteroCompatibility": false,
   "fieldSuggester": true,
+  "enableOnloadScripts": false,
+  "enableCommandLinks": false,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
   "library": "deprecated",
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.19.0",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.26.4",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -6393,7 +6407,6 @@
             "height": 81.98708570198013,
             "seed": 1566468440,
             "groupIds": [
-              "x_rkMfPLFU8AbHOVEJDB8",
               "uKNfgt4EFIYnrlTHtQUgQ"
             ],
             "boundElements": [],
@@ -6601,7 +6614,6 @@
             "height": 35.00695985867806,
             "seed": 2098821160,
             "groupIds": [
-              "_8OIDnvK_hnFw5KvN2jl6",
               "uKNfgt4EFIYnrlTHtQUgQ"
             ],
             "boundElements": [],
@@ -6693,7 +6705,6 @@
             "height": 81.97516598163318,
             "seed": 360152664,
             "groupIds": [
-              "w-XJEPVlJi4Cl9Mpvj7JB",
               "uKNfgt4EFIYnrlTHtQUgQ"
             ],
             "boundElements": [],
@@ -6901,7 +6912,6 @@
             "height": 37.074640517577535,
             "seed": 1049113384,
             "groupIds": [
-              "hAyxIb5r-bU6Qm4sJ0n0U",
               "uKNfgt4EFIYnrlTHtQUgQ"
             ],
             "boundElements": [],
@@ -7000,7 +7010,6 @@
             "height": 165.88781924917737,
             "seed": 295399208,
             "groupIds": [
-              "U1ZM8RPbQZtmPt9M99rho",
               "7WOp2RCnb3iNs88FFNj_F"
             ],
             "boundElements": [],
@@ -8590,7 +8599,6 @@
             "height": 115.81615677666066,
             "seed": 495603752,
             "groupIds": [
-              "gYO3LoZ_WhQnpyUYxREP1",
               "9TSI8q0Q83bREN8WiKe6V",
               "kVgiaFNc1OcUJ_9nqzsZF"
             ],
@@ -9579,7 +9587,6 @@
             "height": 11.272666976700778,
             "seed": 278701400,
             "groupIds": [
-              "LMwPoymm-Nvu_eJ6jQXL9",
               "9TSI8q0Q83bREN8WiKe6V",
               "kVgiaFNc1OcUJ_9nqzsZF"
             ],
@@ -10334,7 +10341,6 @@
             "height": 161.90131688117984,
             "seed": 1629865048,
             "groupIds": [
-              "OVO9UmClfYhnL3rSpi9zV",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
             "boundElements": [],
@@ -10638,7 +10644,6 @@
             "height": 31.656005859375,
             "seed": 4803880,
             "groupIds": [
-              "zRyQZM0Zw8GcfpoMjywm_",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -10699,7 +10704,6 @@
             "height": 86.79601287841798,
             "seed": 2107341144,
             "groupIds": [
-              "FKKvI3ugDHsvJosWlVKIY",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -11240,7 +11244,6 @@
             "height": 35.04131889343262,
             "seed": 1458923560,
             "groupIds": [
-              "WMdZljV-L91idr5u4iIEE",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -11301,7 +11304,6 @@
             "height": 29.38000297546386,
             "seed": 1267895896,
             "groupIds": [
-              "nPuQfh92ooveHrgaWgWMt",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -11362,7 +11364,6 @@
             "height": 12.598678588867188,
             "seed": 1466311464,
             "groupIds": [
-              "cnc7ziAGf839WF3BfrJlL",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -12035,7 +12036,6 @@
             "height": 86.72738542743757,
             "seed": 744696360,
             "groupIds": [
-              "YfYufTuokgURFUX93SfDo",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -12392,7 +12392,6 @@
             "height": 83.29601287841797,
             "seed": 509209688,
             "groupIds": [
-              "Wu6csD1k3pbzN23GijZJH",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -12819,7 +12818,6 @@
             "height": 35.367416381835966,
             "seed": 1376428376,
             "groupIds": [
-              "DeyZ-vOCztcNirE1rJUKR",
               "D06uzhWjOOl7Jes33CQeY",
               "gHd3dG85PT9CT7ZNTRyrq"
             ],
@@ -14432,7 +14430,6 @@
             "height": 83.91991398070579,
             "seed": 1357318696,
             "groupIds": [
-              "YuwEF7Qc9v6e-wrUjnKtQ",
               "AO9cZnSu0cxFELRERWop1"
             ],
             "boundElements": [],
@@ -14528,7 +14525,6 @@
             "height": 181.82368331797772,
             "seed": 1552157784,
             "groupIds": [
-              "sQxCSCeqlThXcLSGVO8cC",
               "AO9cZnSu0cxFELRERWop1"
             ],
             "boundElements": [],
@@ -15046,7 +15042,6 @@
             "height": 136.36310648610896,
             "seed": 1400789080,
             "groupIds": [
-              "xDc0fYWQKYSGG6R3sf67L",
               "nU6ATRfawXIr3sxfef9tp"
             ],
             "boundElements": [],
@@ -15366,7 +15361,6 @@
             "height": 47.317681735219814,
             "seed": 1819539752,
             "groupIds": [
-              "EpLRr1ssuieXTnzHjJHOp",
               "nU6ATRfawXIr3sxfef9tp"
             ],
             "boundElements": [],
@@ -15578,7 +15572,6 @@
             "height": 88.95039258556312,
             "seed": 1069649240,
             "groupIds": [
-              "fbWVgAIrgUb9GfIviMCcw",
               "nU6ATRfawXIr3sxfef9tp"
             ],
             "boundElements": [],
@@ -15746,7 +15739,6 @@
             "height": 181.4741907697655,
             "seed": 1089115176,
             "groupIds": [
-              "XYYV4cArUhzsq2fmVNpkm",
               "nU6ATRfawXIr3sxfef9tp"
             ],
             "boundElements": [],
@@ -16336,7 +16328,6 @@
             "height": 19.78670609290632,
             "seed": 904823848,
             "groupIds": [
-              "G2OeA6g-_VuHZA4We_0kM",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -16444,7 +16435,6 @@
             "height": 14.666380545367783,
             "seed": 819707688,
             "groupIds": [
-              "f8DUYwi2rJUgEyfg0m8F6",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -16571,7 +16561,6 @@
             "height": 76.665737433336,
             "seed": 1468273960,
             "groupIds": [
-              "QZej0kTzRbPNoNaf83bbW",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -16715,7 +16704,6 @@
             "height": 104.54052010738738,
             "seed": 194457640,
             "groupIds": [
-              "-nnxhd-oC3huusvKfFzf0",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -16871,7 +16859,6 @@
             "height": 14.666380545367783,
             "seed": 613346088,
             "groupIds": [
-              "AOMusX5zYr4yZC2APu7L-",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -16967,7 +16954,6 @@
             "height": 76.98887953964525,
             "seed": 1557612072,
             "groupIds": [
-              "bUsqiQscxJq9eEMGhY1M7",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17075,7 +17061,6 @@
             "height": 82.48808522104852,
             "seed": 1096565032,
             "groupIds": [
-              "vFxFqfBNPkKZMYC6sTtgD",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17187,7 +17172,6 @@
             "height": 71.489673858242,
             "seed": 1636424744,
             "groupIds": [
-              "5orPtqTrYDYBIRgXxxlHx",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17295,7 +17279,6 @@
             "height": 71.48967385824201,
             "seed": 2135693096,
             "groupIds": [
-              "-KpBA1F14IDU9mekIWOyO",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17403,7 +17386,6 @@
             "height": 87.9872909024517,
             "seed": 1057944104,
             "groupIds": [
-              "N34mxB0aYhrYhJwT1sCmV",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17547,7 +17529,6 @@
             "height": 54.93706874300117,
             "seed": 1472097576,
             "groupIds": [
-              "E86jGpuytbJlYgU_TOM76",
               "cICvUrYhAr2W-OLNze5bB"
             ],
             "boundElements": [],
@@ -17630,7 +17611,6 @@
             "height": 12.14696740480992,
             "seed": 1966319192,
             "groupIds": [
-              "S245v8FNBIrm19kujLyen",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -17814,7 +17794,6 @@
             "height": 1.2503073904639948,
             "seed": 1711442728,
             "groupIds": [
-              "l-pNv7VZGZXxAhUP1PgGy",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -18810,7 +18789,6 @@
             "height": 12.146979681381092,
             "seed": 971094616,
             "groupIds": [
-              "5AyfijB92UhmPbFxlSuaW",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -18994,7 +18972,6 @@
             "height": 1.2502951138928293,
             "seed": 435140392,
             "groupIds": [
-              "E8KbhOZwZEriMf8BCKer7",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -19054,7 +19031,6 @@
             "height": 185.10441365741386,
             "seed": 124301144,
             "groupIds": [
-              "TDPVt0AmJJqGK8C0z6wzV",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -20330,7 +20306,6 @@
             "height": 13.383733737277144,
             "seed": 952779608,
             "groupIds": [
-              "UtpQ2i3Zak_HGCuQjaX2d",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -20450,7 +20425,6 @@
             "height": 12.579655155577296,
             "seed": 1114652200,
             "groupIds": [
-              "2ezTixyMlrKkyyxJ3rEUf",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -20658,7 +20632,6 @@
             "height": 87.47680606029083,
             "seed": 173545560,
             "groupIds": [
-              "fj_V9lw3ZnEJD5DsyXGpg",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -21670,7 +21643,6 @@
             "height": 87.47680606029083,
             "seed": 2135217192,
             "groupIds": [
-              "qhGoVrDrUS-Rr_yAdNjnR",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -22646,7 +22618,6 @@
             "height": 43.78941832162825,
             "seed": 1925306200,
             "groupIds": [
-              "vHkdTA2EXS-8F--UL-HIW",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -22802,7 +22773,6 @@
             "height": 21.964148516475305,
             "seed": 1953229352,
             "groupIds": [
-              "zGF7cSkm_0DafMaRqbuOe",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -22942,7 +22912,6 @@
             "height": 4.47487157308732,
             "seed": 1211968600,
             "groupIds": [
-              "goF6ZHx5k9XF-4rZYoBzW",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -23086,7 +23055,6 @@
             "height": 44.64454288623891,
             "seed": 1186751784,
             "groupIds": [
-              "42ES2Efm2UmLEa54Xz2ml",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -23242,7 +23210,6 @@
             "height": 22.287783485569623,
             "seed": 1569055064,
             "groupIds": [
-              "8Jz9KB_PXjr6f3ljLuIdF",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -23382,7 +23349,6 @@
             "height": 4.292417172409076,
             "seed": 256213032,
             "groupIds": [
-              "scQvIagZhwu2csk12HKtq",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -23526,7 +23492,6 @@
             "height": 42.76974626995733,
             "seed": 300938840,
             "groupIds": [
-              "RP6sI_7KSESLkAgjfMned",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -23742,7 +23707,6 @@
             "height": 41.815568190888825,
             "seed": 1039350568,
             "groupIds": [
-              "50xC-MJcau0-ITwrWd6bS",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -24058,7 +24022,6 @@
             "height": 43.280985661334284,
             "seed": 978283352,
             "groupIds": [
-              "BkaLvR_5U_JH2EsFhM8Me",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -24274,7 +24237,6 @@
             "height": 42.22093750166769,
             "seed": 1697748520,
             "groupIds": [
-              "nvTtRu78f7ruHZv8TRiqX",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -24590,7 +24552,6 @@
             "height": 36.70866361096692,
             "seed": 1895317592,
             "groupIds": [
-              "helyXGIE_9PuZnSvV1BI7",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -25174,7 +25135,6 @@
             "height": 36.304085967063415,
             "seed": 865086504,
             "groupIds": [
-              "NPkJMG2C-T49M5GYU_zJi",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -25542,7 +25502,6 @@
             "height": 18.28209177104246,
             "seed": 771099224,
             "groupIds": [
-              "sxN6WcoF4oIuqtkPbYE64",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -25806,7 +25765,6 @@
             "height": 9.641650697125112,
             "seed": 1544054568,
             "groupIds": [
-              "rvUrllt-HeqbrEgrz1e2R",
               "9NjcXbOWnGlxhntzl3C9Y"
             ],
             "boundElements": [],
@@ -26884,7 +26842,6 @@
             "height": 116.42795218726344,
             "seed": 214945320,
             "groupIds": [
-              "-Gud1-oLFwo7TYmjT7YwG",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -26944,7 +26901,6 @@
             "height": 116.42796444186534,
             "seed": 1132038232,
             "groupIds": [
-              "h_RRHaN6NPEVqoFwguTK1",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27004,7 +26960,6 @@
             "height": 116.42876099099088,
             "seed": 1896073512,
             "groupIds": [
-              "xd9cZ1ZFHG0dBEGE4caBT",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27100,7 +27055,6 @@
             "height": 72.83021959081455,
             "seed": 1758903640,
             "groupIds": [
-              "JxIbxvAcr9NPkDHdtkIed",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27196,7 +27150,6 @@
             "height": 116.42796444186538,
             "seed": 1124099112,
             "groupIds": [
-              "cg8Vn0poYnnIlNVktQhVc",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27256,7 +27209,6 @@
             "height": 116.42876099099087,
             "seed": 918901336,
             "groupIds": [
-              "2PCcx9GD41BB9EhCNxpn3",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27352,7 +27304,6 @@
             "height": 72.83021959081452,
             "seed": 11640616,
             "groupIds": [
-              "v4_WGAdGvNg6Z1s_PSXlU",
               "WiBHI_6BDmVZR1t9xpAls"
             ],
             "boundElements": [],
@@ -27904,7 +27855,6 @@
             "height": 55.648084574431984,
             "seed": 507548760,
             "groupIds": [
-              "-8KStmkiyb2okPULXZumP",
               "jJY06peMsghTkFCH02WwU"
             ],
             "boundElements": [],
@@ -28128,7 +28078,6 @@
             "height": 55.64809934949,
             "seed": 1859930456,
             "groupIds": [
-              "GvA2-CRej7q5VsSASvB7Q",
               "jJY06peMsghTkFCH02WwU"
             ],
             "boundElements": [],
@@ -29011,7 +28960,6 @@
             "height": 43.64999133253376,
             "seed": 647999576,
             "groupIds": [
-              "Va13vq59KLnkqQ7GGQuAK",
               "8-yplV8XGBJq56BHVG7x7"
             ],
             "boundElements": [],
@@ -29104,7 +29052,6 @@
             "height": 29.574126329500594,
             "seed": 1425532248,
             "groupIds": [
-              "rMHprH4HC_wsrOLWEuGo7",
               "8-yplV8XGBJq56BHVG7x7"
             ],
             "boundElements": [],
@@ -29216,7 +29163,6 @@
             "height": 47.25420364274285,
             "seed": 48610344,
             "groupIds": [
-              "uSHClvwY32o5eeuD7sr0C",
               "8-yplV8XGBJq56BHVG7x7"
             ],
             "boundElements": [],
@@ -29390,11 +29336,6 @@
                 0
               ],
               [
-                0.5948632840265244,
-                0.5948632840265244,
-                0.5
-              ],
-              [
                 0,
                 0
               ],
@@ -29410,7 +29351,11 @@
             "frameId": null,
             "roundness": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "type": "line",
@@ -29432,7 +29377,6 @@
             "height": 196.07140306963,
             "seed": 1697294936,
             "groupIds": [
-              "zw979BPi_AhSnrloeT2AB",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -30236,7 +30180,6 @@
             "height": 98.19645827451619,
             "seed": 1475200808,
             "groupIds": [
-              "T8zA22cFIj7o83qLopLB4",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -30440,7 +30383,6 @@
             "height": 98.67872432164144,
             "seed": 1007918936,
             "groupIds": [
-              "IcPnuy8gZiGr9oQyOTiwM",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -30644,7 +30586,6 @@
             "height": 39.05367864087431,
             "seed": 2012914216,
             "groupIds": [
-              "A7suoFK__5LOCGTv4Hcim",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -30816,7 +30757,6 @@
             "height": 62.51865076593501,
             "seed": 336983128,
             "groupIds": [
-              "CXGJCdsrYJbc0wC-e-E9_",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -31008,7 +30948,6 @@
             "height": 39.05368010794366,
             "seed": 1471421736,
             "groupIds": [
-              "rPW2xt9AB42Q8tRTunozG",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -31180,7 +31119,6 @@
             "height": 62.51788202158381,
             "seed": 1124444504,
             "groupIds": [
-              "JjUxhP-EvhgKzvaRY-vwX",
               "WwIQJE9oC1r8ixmYZqP75"
             ],
             "boundElements": [],
@@ -32536,9 +32474,7 @@
             "width": 195.193499151555,
             "height": 195.1902603034588,
             "seed": 1049393448,
-            "groupIds": [
-              "wJ_ZPh_96-kTwIVDEvQbp"
-            ],
+            "groupIds": [],
             "boundElements": [],
             "updated": 1770351533500,
             "link": null,
@@ -33231,7 +33167,6 @@
             "height": 142.15416092156096,
             "seed": 64289112,
             "groupIds": [
-              "U7jUZEWNUVQ-WlqkeyZ9R",
               "MsXwWS4Oxg0Ow4DA6mfg3"
             ],
             "boundElements": [],
@@ -33951,7 +33886,6 @@
             "height": 142.0068061015715,
             "seed": 1318850136,
             "groupIds": [
-              "Hyiny-6eTozDWIsZKpdMn",
               "MsXwWS4Oxg0Ow4DA6mfg3"
             ],
             "boundElements": [],
@@ -34587,7 +34521,6 @@
             "height": 85.53338098638741,
             "seed": 968393560,
             "groupIds": [
-              "-g0cjLb5uym7RRZFEEpEr",
               "MsXwWS4Oxg0Ow4DA6mfg3"
             ],
             "boundElements": [],
@@ -35282,7 +35215,6 @@
             "height": 183.16440171485314,
             "seed": 1325275688,
             "groupIds": [
-              "NqpaviREaUy9-PUpKkR5O",
               "nHKhG4SUkXzuwsTtJFp-1"
             ],
             "boundElements": [],
@@ -37245,7 +37177,6 @@
             "height": 73.79285422557909,
             "seed": 1184305960,
             "groupIds": [
-              "ail5XIORt5kmbIBewpw1p",
               "Sjn3Q7QSvt8exwmstCQrf"
             ],
             "boundElements": [],
@@ -37433,7 +37364,6 @@
             "height": 106.34187594947817,
             "seed": 1536847400,
             "groupIds": [
-              "2EcUVcAqyf_CuMuYiaOav",
               "Sjn3Q7QSvt8exwmstCQrf"
             ],
             "boundElements": [],
@@ -37625,7 +37555,6 @@
             "height": 48.99364242970175,
             "seed": 1299867944,
             "groupIds": [
-              "qnIk63eBGebRxdgyJx2mu",
               "Sjn3Q7QSvt8exwmstCQrf"
             ],
             "boundElements": [],
@@ -37709,7 +37638,6 @@
             "height": 88.57412484205918,
             "seed": 396559400,
             "groupIds": [
-              "k2EG3s6NcwppqwwxiIWV7",
               "Sjn3Q7QSvt8exwmstCQrf"
             ],
             "boundElements": [],
@@ -37997,7 +37925,6 @@
             "height": 17.69213904118546,
             "seed": 1744846632,
             "groupIds": [
-              "BDR4gooMETkuSugYnJgeI",
               "Sjn3Q7QSvt8exwmstCQrf"
             ],
             "boundElements": [],
@@ -39967,7 +39894,6 @@
             "height": 67.84021467745076,
             "seed": 42722600,
             "groupIds": [
-              "kmIxY7bOEGBVqrUVs_DFF",
               "vk0aTPjbUdFQjDbK8YNJu"
             ],
             "boundElements": [],
@@ -40203,7 +40129,6 @@
             "height": 67.83918993681465,
             "seed": 623181864,
             "groupIds": [
-              "3RpTcMI2KGEz3ESdRwq65",
               "vk0aTPjbUdFQjDbK8YNJu"
             ],
             "boundElements": [],
@@ -40439,7 +40364,6 @@
             "height": 67.83919383316686,
             "seed": 1810021160,
             "groupIds": [
-              "FNXfxhZWm1Z2lqWv73BcL",
               "vk0aTPjbUdFQjDbK8YNJu"
             ],
             "boundElements": [],
@@ -40682,7 +40606,6 @@
             "height": 146.74812784975197,
             "seed": 998117928,
             "groupIds": [
-              "zloIkKJrKMSPC2JrAEFCR",
               "5JhFPvvq201OkQhfgwKzs"
             ],
             "boundElements": [],
@@ -40917,7 +40840,6 @@
             "height": 125.83368543047195,
             "seed": 1641440808,
             "groupIds": [
-              "L1eWyQJefWuGRLuLhXy1R",
               "06VI5pAKdfjSrCatgXvlh"
             ],
             "boundElements": [],
@@ -40985,7 +40907,6 @@
             "height": 126.22345883299936,
             "seed": 427254056,
             "groupIds": [
-              "qJf9v39yPAXAxc2q1VoBr",
               "06VI5pAKdfjSrCatgXvlh"
             ],
             "boundElements": [],
@@ -41049,7 +40970,6 @@
             "height": 85.7076958723078,
             "seed": 1228995624,
             "groupIds": [
-              "uKZXL10RbFUd-XsLE59XX",
               "06VI5pAKdfjSrCatgXvlh"
             ],
             "boundElements": [],
@@ -41109,7 +41029,6 @@
             "height": 101.95330952435242,
             "seed": 589248296,
             "groupIds": [
-              "CEagcx04fRKBGVtRtg1hY",
               "06VI5pAKdfjSrCatgXvlh"
             ],
             "boundElements": [],
@@ -41200,7 +41119,6 @@
             "height": 134.24471848655696,
             "seed": 484773416,
             "groupIds": [
-              "cbyxCBMlLwEQdLeZOqqFG",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -41588,7 +41506,6 @@
             "height": 10.994492973893323,
             "seed": 1282476328,
             "groupIds": [
-              "3hpXzHuow_ayukRA0rxwm",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -41708,7 +41625,6 @@
             "height": 29.09314146014708,
             "seed": 1053140008,
             "groupIds": [
-              "wpQH7uymgXnrFJRh9qpCX",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -41864,7 +41780,6 @@
             "height": 10.994492973893315,
             "seed": 1372512040,
             "groupIds": [
-              "cKRBT5giafAXIG8qHAp5l",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -41984,7 +41899,6 @@
             "height": 10.994509104926756,
             "seed": 1173928488,
             "groupIds": [
-              "gYVhov4Z_i30TX5f5vSzK",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -42104,7 +42018,6 @@
             "height": 10.994492973893315,
             "seed": 1848587560,
             "groupIds": [
-              "4ONhXmVP5EBbgw7HRSG1Q",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -42224,7 +42137,6 @@
             "height": 10.994492973893323,
             "seed": 1608405032,
             "groupIds": [
-              "9gO_tyOE5JfXj5WiCg124",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -42344,7 +42256,6 @@
             "height": 10.994501039410036,
             "seed": 586287912,
             "groupIds": [
-              "GgcAKjnU2mlPAmQKY0U7o",
               "7PcNz-DxaJrZbcfSvDDdP"
             ],
             "boundElements": [],
@@ -42971,7 +42882,6 @@
             "height": 75.60532288282272,
             "seed": 1222400296,
             "groupIds": [
-              "VWKPqDpFomR0Piw2L7ATh",
               "jwHTjfBRZWWfAO-wRZFrY"
             ],
             "boundElements": [],
@@ -43031,7 +42941,6 @@
             "height": 75.60531813786545,
             "seed": 826733608,
             "groupIds": [
-              "3gJ2rwWJrcRHwUQ8Vy8J9",
               "jwHTjfBRZWWfAO-wRZFrY"
             ],
             "boundElements": [],
@@ -43098,7 +43007,6 @@
             "height": 136.7084293105244,
             "seed": 128331560,
             "groupIds": [
-              "gzqnb_0brkLdvh6mnP6Gm",
               "IKCmqky2BrYzyks29vwri"
             ],
             "boundElements": [],
@@ -44888,7 +44796,6 @@
             "height": 107.25081879410921,
             "seed": 685932433,
             "groupIds": [
-              "0RJwA-yKP5dqk5oMiSeot",
               "9ppmKFUbA4iKjt8FaDFox"
             ],
             "index": "a1",
@@ -46970,7 +46877,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "type": "freedraw",
@@ -47082,7 +46993,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "type": "freedraw",
@@ -47198,7 +47113,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "type": "freedraw",
@@ -47242,7 +47161,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "type": "freedraw",
@@ -47290,7 +47213,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           }
         ],
         "id": "4QyyE0LAcEJlvOr_q39W3",
@@ -48066,7 +47993,11 @@
             "updated": 1770351505822,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "strokeOptions": {
+              "variability": "variable",
+              "streamline": 0.5
+            }
           },
           {
             "id": "AaR8VBApAi2qjuZsOjNY8",
@@ -50701,9 +50632,7 @@
             "width": 97.35601825028085,
             "height": 98.60970239702232,
             "seed": 1536978666,
-            "groupIds": [
-              "tyj-AElb6Y4StDgSVjXjO"
-            ],
+            "groupIds": [],
             "index": "a0",
             "frameId": null,
             "roundness": null,
@@ -60795,9 +60724,33 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
+  "markdownImageSettings": {
+    "defaults": {
+      "width": 500,
+      "paddingBottom": 10,
+      "fontFamily": "Virgil",
+      "fontColor": "Black",
+      "border": {
+        "enabled": false,
+        "color": "Black"
+      },
+      "css": "",
+      "transclusion": {
+        "enabled": false,
+        "fontFamily": "Cascadia",
+        "fontColor": "Black",
+        "border": {
+          "enabled": false,
+          "color": "Black"
+        },
+        "css": ""
+      }
+    }
+  },
   "scriptEngineSettings": {},
-  "previousRelease": "2.19.0",
+  "previousRelease": "2.26.4",
   "showReleaseNotes": true,
+  "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -61154,15 +61107,277 @@
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
   "aiEnabled": true,
-  "openAIAPIToken": "",
-  "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
-  "openAIDefaultTextModelMaxTokens": 4096,
-  "openAIDefaultVisionModel": "gpt-4o",
-  "openAIDefaultImageGenerationModel": "dall-e-3",
-  "openAIURL": "https://api.openai.com/v1/chat/completions",
-  "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
-  "openAIImageEditsURL": "https://api.openai.com/v1/images/edits",
-  "openAIImageVariationURL": "https://api.openai.com/v1/images/variations",
+  "aiVerboseLogging": false,
+  "aiProviderProfiles": {
+    "OpenAI": {
+      "provider": "openai",
+      "apiKey": "",
+      "baseURL": "https://api.openai.com/v1"
+    },
+    "Anthropic": {
+      "provider": "anthropic",
+      "apiKey": "",
+      "baseURL": "https://api.anthropic.com/v1"
+    },
+    "Google Gemini": {
+      "provider": "google",
+      "apiKey": "",
+      "baseURL": "https://generativelanguage.googleapis.com/v1beta"
+    },
+    "xAI": {
+      "provider": "xai",
+      "apiKey": "",
+      "baseURL": "https://api.x.ai/v1"
+    },
+    "OpenAI-compatible": {
+      "provider": "openai-compatible",
+      "apiKey": "",
+      "baseURL": "https://api.openai.com/v1"
+    }
+  },
+  "aiTextModelConfigs": {
+    "gpt-5-mini": {
+      "providerId": "OpenAI",
+      "model": "gpt-5-mini",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "claude-sonnet-4-5": {
+      "providerId": "Anthropic",
+      "model": "claude-sonnet-4-5",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "gemini-2.5-pro": {
+      "providerId": "Google Gemini",
+      "model": "gemini-2.5-pro",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "grok-4-fast": {
+      "providerId": "xAI",
+      "model": "grok-4-fast",
+      "endpoint": "",
+      "multimodalSupport": true
+    },
+    "gpt-3.5-turbo-1106": {
+      "providerId": "OpenAI",
+      "model": "gpt-3.5-turbo-1106",
+      "endpoint": "",
+      "multimodalSupport": true
+    }
+  },
+  "aiImageModelConfigs": {
+    "dall-e-2": {
+      "providerId": "OpenAI",
+      "model": "dall-e-2",
+      "supportedSizes": [
+        "256x256",
+        "512x512",
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "dall-e-3": {
+      "providerId": "OpenAI",
+      "model": "dall-e-3",
+      "supportedSizes": [
+        "1024x1024",
+        "1792x1024",
+        "1024x1792"
+      ],
+      "supportsPromptImageTransforms": false,
+      "supportsMaskImageEdits": false
+    },
+    "gpt-image-1": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-1-mini": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1-mini",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-1.5": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-1.5",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gpt-image-2": {
+      "providerId": "OpenAI",
+      "model": "gpt-image-2",
+      "supportedSizes": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536",
+        "2048x2048"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": true
+    },
+    "gemini-2.5-flash-image": {
+      "providerId": "Google Gemini",
+      "model": "gemini-2.5-flash-image",
+      "supportedSizes": [
+        "1024x1024",
+        "848x1264",
+        "1264x848",
+        "896x1200",
+        "1200x896",
+        "928x1152",
+        "1152x928",
+        "768x1376",
+        "1376x768",
+        "1584x672"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "gemini-3.1-flash-image-preview": {
+      "providerId": "Google Gemini",
+      "model": "gemini-3.1-flash-image-preview",
+      "supportedSizes": [
+        "512x512",
+        "1024x1024",
+        "2048x2048",
+        "4096x4096",
+        "424x632",
+        "848x1264",
+        "1696x2528",
+        "3392x5056",
+        "632x424",
+        "1264x848",
+        "2528x1696",
+        "5056x3392",
+        "448x600",
+        "896x1200",
+        "1792x2400",
+        "3584x4800",
+        "600x448",
+        "1200x896",
+        "2400x1792",
+        "4800x3584",
+        "464x576",
+        "928x1152",
+        "1856x2304",
+        "3712x4608",
+        "576x464",
+        "1152x928",
+        "2304x1856",
+        "4608x3712",
+        "384x688",
+        "768x1376",
+        "1536x2752",
+        "3072x5504",
+        "688x384",
+        "1376x768",
+        "2752x1536",
+        "5504x3072",
+        "792x168",
+        "1584x672",
+        "3168x1344",
+        "6336x2688",
+        "256x1024",
+        "512x2048",
+        "1024x4096",
+        "2048x8192",
+        "192x1536",
+        "384x3072",
+        "768x6144",
+        "1536x12288",
+        "1024x256",
+        "2048x512",
+        "4096x1024",
+        "8192x2048",
+        "1536x192",
+        "3072x384",
+        "6144x768",
+        "12288x1536"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "gemini-3-pro-image-preview": {
+      "providerId": "Google Gemini",
+      "model": "gemini-3-pro-image-preview",
+      "supportedSizes": [
+        "1024x1024",
+        "2048x2048",
+        "4096x4096",
+        "848x1264",
+        "1696x2528",
+        "3392x5056",
+        "1264x848",
+        "2528x1696",
+        "5056x3392",
+        "896x1200",
+        "1792x2400",
+        "3584x4800",
+        "1200x896",
+        "2400x1792",
+        "4800x3584",
+        "928x1152",
+        "1856x2304",
+        "3712x4608",
+        "1152x928",
+        "2304x1856",
+        "4608x3712",
+        "768x1376",
+        "1536x2752",
+        "3072x5504",
+        "1376x768",
+        "2752x1536",
+        "5504x3072",
+        "1584x672",
+        "3168x1344",
+        "6336x2688"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "grok-imagine-image-quality": {
+      "providerId": "xAI",
+      "model": "grok-imagine-image-quality",
+      "supportedSizes": [
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    },
+    "grok-imagine-image-pro": {
+      "providerId": "xAI",
+      "model": "grok-imagine-image-pro",
+      "supportedSizes": [
+        "1024x1024"
+      ],
+      "supportsPromptImageTransforms": true,
+      "supportsMaskImageEdits": false
+    }
+  },
+  "aiDefaultTextModel": "gpt-3.5-turbo-1106",
+  "aiDefaultImageGenerationModel": "dall-e-3",
+  "aiDefaultMaxOutgoingTokens": 0,
+  "aiDefaultMaxResponseTokens": 4096,
   "modifierKeyConfig": {
     "Mac": {
       "LocalFileDragAction": {
@@ -61269,7 +61484,7 @@
         "rules": [
           {
             "shift": false,
-            "ctrl_cmd": false,
+            "ctrl_cmd": true,
             "alt_opt": false,
             "meta_ctrl": false,
             "result": "active-pane"
@@ -61452,7 +61667,6 @@
   "longPressDesktop": 500,
   "longPressMobile": 500,
   "doubleClickLinkOpenViewMode": true,
-  "isDebugMode": false,
   "rank": "Bronze",
   "modifierKeyOverrides": [
     {
@@ -61485,5 +61699,6 @@
     "margin": "normal"
   },
   "disableContextMenu": false,
+  "isDebugMode": false,
   "defaultTrayMode": true
 }

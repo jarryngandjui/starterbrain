@@ -11,7 +11,7 @@ async function setBig7(frontmatter) {
 
 async function setWorkout(frontmatter) {
     frontmatter["kind"] = ["sprint"];
-    frontmatter["tags"] = ["gym", "road-to-dunk"];
+    frontmatter["tags"] = ["gym", "workout"];
     frontmatter["category"] = ["health"];
 }
 

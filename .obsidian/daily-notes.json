@@ -1,3 +1,4 @@
 {
-  "folder": "1.daily"
+  "folder": "1.daily",
+  "template": "6.templates/template.note.daily.md"
 }
