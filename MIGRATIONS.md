@@ -41,8 +41,25 @@ created on demand by `9.scripts/script.archive.md`.
 
 Every note under `7.zettelkasten/archive/<kind>/` moves to
 `10.archive/7.zettelkasten/<kind>/<year>/`, where `<year>` is the year the
-note was created. Notes whose creation date cannot be read go directly into
-`10.archive/7.zettelkasten/<kind>/` without a year folder.
+note was created, matching what `9.scripts/script.archive.md` does from now
+on.
+
+**Read the creation date, not the modified date.** Git does not preserve
+timestamps, so in a vault that was cloned or copied every file's modified
+date is the day you cloned it. If the dates you find are all identical, or
+all land on the day you set the vault up, they are not real: fall back to a
+date in the note's frontmatter or filename. When there is no trustworthy
+date at all, move the note to `10.archive/7.zettelkasten/<kind>/` with no
+year folder rather than inventing one. A wrong year is harder to undo than
+a missing one.
+
+**Files this template shipped do not get a year folder.** The two notes in
+`7.zettelkasten/archive/script/` (`migrate.kind.sprint.md` and
+`script.sprint.migrate.md`) came with the template, and it keeps them at
+`10.archive/7.zettelkasten/script/` directly. Move them there. Filing them
+under a year would leave your vault a different shape from the template, and
+the next sync would then read them as missing and add a second copy at the
+correct path.
 
 | From | To |
 | :-- | :-- |
