@@ -121,5 +121,13 @@
       ],
       "key": "]"
     }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "key": "D",
+      "modifiers": [
+        "Ctrl"
+      ]
+    }
   ]
 }
