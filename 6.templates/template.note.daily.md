@@ -16,17 +16,17 @@ url: ""
 links: ""
 due date: ""
 completed date: ""
-start date: ""
+start date: <% tp.date.now('YYYY-MM-DDTHH:mm') %>
 cancelled date: ""
-notetoolbar: default
+notetoolbar: sprint
 productivity: ""
 ---
-# Schedule
-- [ ] #task TBD
+<% await tp.file.include("[[script.daily]]") %>
+# Tasks
+```tasks
+preset tasks_daily
+```
 
-# Social 
-- [ ] #task TBD
-
-# Reflections
- - [ ] What went well?
- - [ ] What I want to improve? 
+# Retro
+ - What went well?
+ - What I want to improve? 

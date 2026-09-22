@@ -9,7 +9,8 @@
     "hide_date_fields": "# Hide any values for all date fields\nhide due date\nhide scheduled date\nhide start date\nhide created date\nhide done date\nhide cancelled date",
     "hide_non_date_fields": "# Hide all the non-date fields, but not tags\nhide id\nhide depends on\nhide recurrence rule\nhide on completion\nhide priority",
     "hide_query_elements": "# Hide postpone, edit and backinks\nhide postpone button\nhide edit button\nhide backlinks",
-    "hide_everything": "# Hide everything except description and any tags\npreset hide_date_fields\npreset hide_non_date_fields\npreset hide_query_elements"
+    "hide_everything": "# Hide everything except description and any tags\npreset hide_date_fields\npreset hide_non_date_fields\npreset hide_query_elements",
+    "tasks_daily": "filter by function task.file.hasProperty('kind')\nfilter by function task.file.property('kind') == 'sprint'\nfilter by function \\\n    const tags = task.file.property('tags'); \\\n    return !tags.includes('#template');\nfilter by function \\\n    const startDate = moment(query.file.property('start date')); \\\n    const dueToday = task.due.moment !== null && startDate.isValid() && task.due.moment.isSame(startDate, 'day'); \\\n    const doneToday = task.done.moment !== null && startDate.isValid() && task.done.moment.isSame(startDate, 'day'); \\\n    return dueToday || doneToday;\n\nsort by function task.isDone ? 1 : 0\nsort by due\nsort by priority"
   },
   "globalQuery": "",
   "globalFilter": "#task",

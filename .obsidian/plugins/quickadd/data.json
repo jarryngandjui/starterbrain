@@ -66,6 +66,39 @@
       }
     },
     {
+      "id": "2dd41935-b74e-46e5-8ce6-6a4ffb400c2c",
+      "name": "Add: Daily Template",
+      "type": "Template",
+      "command": true,
+      "templatePath": "6.templates/template.note.daily.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}} Daily Note"
+      },
+      "discoverExistingNotesBeforeCreate": false,
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "1.daily"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    },
+    {
       "id": "72e30593-55db-46ec-9279-e670fc0d08a0",
       "name": "Add: Big 7 Check-in Template",
       "type": "Template",
